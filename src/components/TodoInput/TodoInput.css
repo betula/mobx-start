@@ -1,0 +1,13 @@
+
+.TodoInput {
+  border-radius: 3px;
+  border: solid #AAF;
+  padding: 8px;
+  margin: 10px;
+  font-size: large;
+  outline: solid #EEE;
+}
+
+.TodoInput:active {
+  outline: solid gold;
+}

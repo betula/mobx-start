@@ -1,0 +1,15 @@
+.TodoItem {
+  list-style: none;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: #AAF;
+  color: cornsilk;
+  text-transform: capitalize;
+  padding: 8px;
+  font-size: large;
+}
+
+.TodoItem.done {
+  background-color: cadetblue;
+  text-decoration: line-through;
+}
