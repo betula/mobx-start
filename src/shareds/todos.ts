@@ -7,7 +7,10 @@ export type Todo = {
 
 class Todos {
 
-  todos: Todo[] = [];
+  todos: Todo[] = [
+    { text: 'first task', done: true },
+    { text: 'second task', done: false }
+  ];
 
   add(text: string) {
     this.todos = this.todos.concat({
@@ -30,6 +33,10 @@ class Todos {
 
   get size() {
     return this.todos.length;
+  }
+
+  clear = () => {
+    this.todos = [];
   }
 
   constructor() {

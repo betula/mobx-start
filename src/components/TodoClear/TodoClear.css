@@ -1,0 +1,14 @@
+.TodoClear {
+  align-items: flex-end;
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+}
+
+.TodoClear a {
+  color: rosybrown;
+  cursor: pointer;
+}
+.TodoClear a:active {
+  color: rebeccapurple;
+}
