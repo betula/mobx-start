@@ -7,7 +7,7 @@ export const TodoClear = observer(() => {
 
   return (
     <div className="TodoClear">
-      <a onClick={todos.clear}>clear</a>
+      <button onClick={todos.clear}>clear</button>
     </div>
   )
 });

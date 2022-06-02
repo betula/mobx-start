@@ -5,10 +5,13 @@
   margin: 10px;
 }
 
-.TodoClear a {
+.TodoClear button {
+  background-color: transparent;
+  border: none;
+  font: inherit;
   color: rosybrown;
   cursor: pointer;
 }
-.TodoClear a:active {
+.TodoClear button:active {
   color: rebeccapurple;
 }
