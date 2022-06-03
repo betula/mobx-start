@@ -1,4 +1,4 @@
-import { computed, makeAutoObservable, observable } from "mobx";
+import { makeAutoObservable, observable } from "mobx";
 
 export type Todo = {
   text: string;
@@ -41,8 +41,7 @@ class Todos {
 
   constructor() {
     makeAutoObservable(this, {
-      todos: observable.ref,
-      size: computed
+      todos: observable.ref
     });
   }
 }
